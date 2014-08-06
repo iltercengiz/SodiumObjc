@@ -6,23 +6,23 @@
 //  Copyright (c) 2014 TabbedOut. All rights reserved.
 //
 
-#import <SodiumObjc/NACL.h>
-#import <SodiumObjc/NACLNonce.h>
-#import <SodiumObjc/NSData+NACL.h>
-#import <SodiumObjc/NSString+NACL.h>
+#import "NACL.h"
+#import "NACLNonce.h"
+#import "NSData+NACL.h"
+#import "NSString+NACL.h"
 
 // Public-Key Cryptography
 
-#import <SodiumObjc/NACLAsymmetricKeyPair.h>
-#import <SodiumObjc/NACLAsymmetricPrivateKey.h>
-#import <SodiumObjc/NACLAsymmetricPublicKey.h>
+#import "NACLAsymmetricKeyPair.h"
+#import "NACLAsymmetricPrivateKey.h"
+#import "NACLAsymmetricPublicKey.h"
 
 // Private-Key Cryptography
 
-#import <SodiumObjc/NACLSymmetricPrivateKey.h>
+#import "NACLSymmetricPrivateKey.h"
 
 // Signatures
 
-#import <SodiumObjc/NACLSigningKeyPair.h>
-#import <SodiumObjc/NACLSigningPrivateKey.h>
-#import <SodiumObjc/NACLSigningPublicKey.h>
+#import "NACLSigningKeyPair.h"
+#import "NACLSigningPrivateKey.h"
+#import "NACLSigningPublicKey.h"
