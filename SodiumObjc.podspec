@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SodiumObjc"
-  s.version          = "2"
+  s.version          = "1.1"
   s.summary          = "SodiumObjc is a wrapper for NaCl"
   s.description      = <<-DESC
                        SodiumObjc is a wrapper for NaCl, providing Obj-C methods for it.
